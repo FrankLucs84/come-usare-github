@@ -94,10 +94,3 @@ Per aggiungere un separatore, utilizza `---` o `***`.
 ### Esempio:
 ---
 """
-
-# Salviamo il file .md
-file_path = "/mnt/data/sintassi_markdown.md"
-with open(file_path, "w") as file:
-    file.write(markdown_content)
-
-file_path
