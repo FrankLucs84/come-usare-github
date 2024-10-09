@@ -230,9 +230,7 @@ Se desideri visualizzare una formula in formato LaTeX e GitHub Pages non la supp
 2. Scarica l'immagine generata della tua formula.
 3. Includi l'immagine nel tuo documento Markdown:
 
-```markdown
 ![Formula E=mc^2](https://github.com/FrankLucs84/come-usare-github/raw/master/test_Latex.png "Formula E=mc^2")
-```
 
 Questo ti permette di visualizzare la formula in modo simile a come verrebbe resa nativamente in LaTeX.
 
