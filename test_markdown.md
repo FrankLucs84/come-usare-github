@@ -320,7 +320,7 @@ Usa il simbolo \* per un asterisco.
 Ecco un esempio di formula LateX e scrittura al centro del paragrafo:
 > ::: {style="text-align: center;"}
 >
-> ## \(E = mc^2\)
+> ## \[E = mc^2\]
 >
 > :::
 
