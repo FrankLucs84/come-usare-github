@@ -216,6 +216,14 @@ Ecco un esempio di formula LateX e scrittura al centro del paragrafo:
 >
 > :::
 
+- ### 13.1 Un alternativa per centrare il testo:
+<div align="center">
+\[
+E = mc^2
+\]
+</div>
+
+
 ## 14. Diagrammi di Flusso
 Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sintassi di [Mermaid](https://mermaid-js.github.io/). Mermaid è uno strumento che ti permette di creare diagrammi direttamente nel tuo documento Markdown. Di seguito trovi alcuni esempi di diagrammi di flusso:
 
