@@ -72,17 +72,6 @@ Markdown supporta diversi stili di formattazione del testo:
 - Questo è `inline code`
 
 ---
-## Reference
-
-Markdown | Preview
---- | ---
-`**bold text**` | **bold text**
-`*italicized text*` or `_italicized text_` | *italicized text*
-`` `Monospace` `` | `Monospace`
-`~~strikethrough~~` | ~~strikethrough~~
-`[A link](https://www.google.com)` | [A link](https://www.google.com)
-`![An image](https://www.google.com/images/rss.png)` | ![An image](https://www.google.com/images/rss.png)
-
 
 ### Paragrafi e Interruzioni di Linea
 I paragrafi sono creati con una linea vuota tra di essi. Per creare un'interruzione di linea senza iniziare un nuovo paragrafo, usa due spazi alla fine della linea:
@@ -168,6 +157,17 @@ Puoi combinare un'immagine con un link per renderla cliccabile:
 [![Logo OpenAI](https://www.esempio.com/logo.jpg)](https://www.openai.com)
 
 ---
+```markdown
+Ciao **[sono un link](https://google.com "titolo: sito google")** click! ☝️
+<https://google.com>
+<francesco.lucignano@gmail.com>
+```
+**Risultato di output:**
+Ciao **[sono un link](https://google.com "titolo: sito google")** click! ☝️
+<https://google.com>
+<francesco.lucignano@gmail.com>
+
+---
 
 ### Gallerie di Immagini
 Per creare una sorta di galleria di immagini, puoi elencare più immagini di seguito:
@@ -177,6 +177,12 @@ Per creare una sorta di galleria di immagini, puoi elencare più immagini di seg
 ![Immagine 2](https://www.esempio.com/immagine2.jpg "Descrizione Immagine 2")
 ![Immagine 3](https://www.esempio.com/immagine3.jpg "Descrizione Immagine 3")
 ```
+**Risultato di output:**
+![Immagine 1](https://www.esempio.com/immagine1.jpg "Descrizione Immagine 1")
+![Immagine 2](https://www.esempio.com/immagine2.jpg "Descrizione Immagine 2")
+![Immagine 3](https://www.esempio.com/immagine3.jpg "Descrizione Immagine 3")
+
+---
 
 ## 5. Citazioni
 Le citazioni vengono create utilizzando il simbolo `>`. Le citazioni possono essere annidate per aumentare i livelli di profondità:
@@ -377,6 +383,16 @@ $A_{m,n} =
  \end{pmatrix}$
 
 
+## RECAP Principal Reference
+
+Markdown | Preview
+--- | ---
+`**bold text**` | **bold text**
+`*italicized text*` or `_italicized text_` | *italicized text*
+`` `Monospace` `` | `Monospace`
+`~~strikethrough~~` | ~~strikethrough~~
+`[A link](https://www.google.com)` | [A link](https://www.google.com)
+`![An image](https://www.google.com/images/rss.png)` | ![An image](https://www.google.com/images/rss.png)
 
 ## 14. Diagrammi di Flusso
 Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sintassi di [Mermaid](https://mermaid-js.github.io/). Mermaid è uno strumento che ti permette di creare diagrammi direttamente nel tuo documento Markdown. Di seguito trovi alcuni esempi di diagrammi di flusso:
