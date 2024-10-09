@@ -208,20 +208,27 @@ Se hai bisogno di visualizzare un carattere speciale come `*`, `_`, `#`, ecc., p
 Usa il simbolo \* per un asterisco.
 ```
 
-## 13. Diagrammi di Flusso
+## 13. Formule centrate
+Ecco un esempio di formula LateX e scrittura al centro del paragrafo:
+> ::: {style="text-align: center;"}
+>
+> ## \(E = mc^2\)
+>
+> :::
+
+## 14. Diagrammi di Flusso
 Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sintassi di [Mermaid](https://mermaid-js.github.io/). Mermaid è uno strumento che ti permette di creare diagrammi direttamente nel tuo documento Markdown. Di seguito trovi alcuni esempi di diagrammi di flusso:
 
 ### Diagramma di Flusso Base
 Per creare un semplice diagramma di flusso, utilizza la seguente sintassi:
 
-```markdown
 ```mermaid
 flowchart TD
     A[Inizio] --> B{Domanda}
     B -->|Sì| C[Procedi]
     B -->|No| D[Fermati]
     C --> E[Fine]
-```
+
 ```
 
 ### Spiegazione:
@@ -233,20 +240,18 @@ flowchart TD
 ### Diagramma di Sequenza
 I diagrammi di sequenza possono essere creati per rappresentare la comunicazione tra diversi attori o sistemi.
 
-```markdown
 ```mermaid
 sequenceDiagram
     partecipante A
     partecipante B
     A->>B: Ciao, come stai?
     B->>A: Bene, grazie!
-```
+
 ```
 
 ### Diagramma Gantt
 Puoi anche creare un diagramma di Gantt per la gestione del progetto:
 
-```markdown
 ```mermaid
 gantt
     titolo Progetto Esempio
@@ -255,7 +260,7 @@ gantt
     Task 2 :after a1, 20d
     sezione Esecuzione
     Task 3 :2023-02-01, 45d
-```
+
 ```
 
 ### Spiegazione del Diagramma Gantt
