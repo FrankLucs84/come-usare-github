@@ -154,6 +154,10 @@ Puoi combinare un'immagine con un link per renderla cliccabile:
 ```markdown
 [![Logo OpenAI](https://www.esempio.com/logo.jpg)](https://www.openai.com)
 ```
+**Risultato di output:**
+[![Logo OpenAI](https://www.esempio.com/logo.jpg)](https://www.openai.com)
+
+---
 
 ### Gallerie di Immagini
 Per creare una sorta di galleria di immagini, puoi elencare più immagini di seguito:
@@ -364,16 +368,6 @@ Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sinta
 Per creare un semplice diagramma di flusso, utilizza la seguente sintassi:
 
 **Esempio di costruzione:**
-
-```mermaid
-flowchart TD
-    A[Inizio] --> B{Domanda}
-    B -->|Sì| C[Procedi]
-    B -->|No| D[Fermati]
-    C --> E[Fine]
-```
-
-**Risultato di output:**
 
 ```mermaid
 flowchart TD
