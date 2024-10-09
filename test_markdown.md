@@ -20,6 +20,7 @@ Puoi formattare il testo in **grassetto**, *corsivo* o ~~barrato~~.
 - **Grassetto**: `**testo**`
 - *Corsivo*: `*testo*`
 - ~~Barrato~~: `~~testo~~`
+- ==evidenziato==: `==testo==`
 
 ## 3. Liste
 ### Liste non ordinate:
