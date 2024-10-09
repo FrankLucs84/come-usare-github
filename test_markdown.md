@@ -1,4 +1,4 @@
-# Corso Completo: Sintassi Avanzata di Markdown
+# Corso Completo: Sintassi Avanzata di Markdown {#titolo1}
 
 Markdown è un linguaggio di markup semplice che permette di formattare testo in modo rapido ed efficiente. Di seguito trovi una panoramica più approfondita delle principali funzionalità di Markdown, inclusi esempi avanzati, approfondimenti sulle immagini e sui diagrammi di flusso.
 
@@ -192,20 +192,27 @@ Le citazioni vengono create utilizzando il simbolo `>`. Le citazioni possono ess
 > > Questa è una citazione annidata.
 ```
 **Risultato di output:**
-
 > Questa è una citazione.
->
 > > Questa è una citazione annidata.
 
----
-
 Le citazioni possono contenere anche altri elementi Markdown, come liste o codice:
-
+come ad esempio:
 ```markdown
 > ### Titolo nella citazione
 > - Elemento di una lista
 > - Altro elemento
 ```
+
+Infine simile ma non uguale può essere le "dl" - definition list
+```markdown
+Markdown
+: Tipo di linguaggio informatico molto veloce e pratico per gli appunti
+```
+**Risultato di output:**
+Markdown
+: Tipo di linguaggio informatico molto veloce e pratico per gli appunti
+
+---
 
 ## 6. Codice
 
@@ -346,7 +353,7 @@ Ecco un esempio di formula LateX e scrittura al centro del paragrafo:
 
 - ### 13.1 Un alternativa per centrare il testo:
 <div align="center">
-$E = mc^2$
+$$E = mc^2$$
 </div>
 
 - ### 13.2 Utilizzare Equazioni come Immagini
@@ -378,6 +385,22 @@ $A_{m,n} =
   a_{m,1} & a_{m,2} & \cdots & a_{m,n}
  \end{pmatrix}$
 
+# Varie 
+## Note a piè di pagina
+```markdown
+Ciao sono Francesco [^1] e sto facendo una prova di Diario [^md]
+
+[^1]: questa è una nota
+[^md]: è un test sul numero nota automatico
+```
+## link all'interno della pagina 
+```markdown
+Si mette il cancelletoo nel primo titolo tra le parentesi graffe, coì # TITOLO1 {#titolo1},
+in questo modo si può fare il link in questo modo scivendo tra le parentesi () il link interno
+[premi per tornare su] (#titolo1)
+```
+**Risultato di output:**
+[premi per tornare su] (#titolo1)
 
 ## RECAP Principal Reference
 
@@ -406,7 +429,6 @@ flowchart TD
     C --> E[Fine]
 ```
 ---
-
 
 ### Spiegazione:
 - **flowchart TD**: Specifica che il diagramma è un diagramma di flusso e `TD` indica una direzione dall'alto verso il basso (Top to Down). Altre direzioni possibili sono `LR` (sinistra verso destra), `RL` (destra verso sinistra), `BT` (dal basso verso l'alto).
