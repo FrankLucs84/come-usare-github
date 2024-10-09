@@ -250,8 +250,8 @@ I diagrammi di sequenza possono essere creati per rappresentare la comunicazione
 
 ```mermaid
 sequenceDiagram
-    partecipante A
-    partecipante B
+    participant A
+    participant B
     A->>B: Ciao, come stai?
     B->>A: Bene, grazie!
 
@@ -262,11 +262,11 @@ Puoi anche creare un diagramma di Gantt per la gestione del progetto:
 
 ```mermaid
 gantt
-    titolo Progetto Esempio
-    sezione Pianificazione
+    title Progetto Esempio
+    section Pianificazione
     Task 1 :a1, 2023-01-01, 30d
     Task 2 :after a1, 20d
-    sezione Esecuzione
+    section Esecuzione
     Task 3 :2023-02-01, 45d
 
 ```
