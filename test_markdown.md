@@ -2,7 +2,7 @@
 
 Markdown è un linguaggio di markup semplice che permette di formattare testo in modo rapido ed efficiente. Di seguito trovi una panoramica più approfondita delle principali funzionalità di Markdown, inclusi esempi avanzati, approfondimenti sulle immagini e sui diagrammi di flusso.
 
-## 1. Titoli {#Titoli}
+## 1. Titoli{#top}
 Usa il simbolo `#` per creare titoli, con diversi livelli di enfasi. Puoi avere fino a sei livelli di titolo, ognuno con una dimensione e una prominenza decrescenti:
 
 ```markdown
