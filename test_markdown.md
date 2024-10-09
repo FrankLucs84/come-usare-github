@@ -1,4 +1,4 @@
-# Corso Completo: Sintassi Avanzata di Markdown {#titolo1}
+# Corso Completo: Sintassi Avanzata di Markdown {#1}
 
 Markdown è un linguaggio di markup semplice che permette di formattare testo in modo rapido ed efficiente. Di seguito trovi una panoramica più approfondita delle principali funzionalità di Markdown, inclusi esempi avanzati, approfondimenti sulle immagini e sui diagrammi di flusso.
 
