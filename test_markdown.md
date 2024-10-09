@@ -209,8 +209,9 @@ Markdown
 : Tipo di linguaggio informatico molto veloce e pratico per gli appunti
 ```
 **Risultato di output:**
+
 Markdown
-: Tipo di linguaggio informatico molto veloce e pratico per gli appunti
+: tipo di linguaggio informatico molto veloce e pratico per gli appunti
 
 ---
 
