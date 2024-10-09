@@ -234,6 +234,7 @@ Se desideri visualizzare una formula in formato LaTeX e GitHub Pages non la supp
 
 Questo ti permette di visualizzare la formula in modo simile a come verrebbe resa nativamente in LaTeX.
 
+
 ## 14. Diagrammi di Flusso
 Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sintassi di [Mermaid](https://mermaid-js.github.io/). Mermaid è uno strumento che ti permette di creare diagrammi direttamente nel tuo documento Markdown. Di seguito trovi alcuni esempi di diagrammi di flusso:
 
