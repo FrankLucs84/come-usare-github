@@ -1,8 +1,8 @@
-# Corso Completo: Sintassi Avanzata di Markdown {#}
+# Corso Completo: Sintassi Avanzata di Markdown 
 
 Markdown è un linguaggio di markup semplice che permette di formattare testo in modo rapido ed efficiente. Di seguito trovi una panoramica più approfondita delle principali funzionalità di Markdown, inclusi esempi avanzati, approfondimenti sulle immagini e sui diagrammi di flusso.
 
-## 1. Titoli
+## 1. Titoli {#Titoli}
 Usa il simbolo `#` per creare titoli, con diversi livelli di enfasi. Puoi avere fino a sei livelli di titolo, ognuno con una dimensione e una prominenza decrescenti:
 
 ```markdown
@@ -401,7 +401,7 @@ in questo modo si può fare il link in questo modo scivendo tra le parentesi () 
 [premi per tornare su] (#titolo1)
 ```
 **Risultato di output:**
-[premi per tornare su] (#titolo1)
+[premi per tornare su](#Titoli)
 
 ## RECAP Principal Reference
 
