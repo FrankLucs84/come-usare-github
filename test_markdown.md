@@ -286,6 +286,12 @@ Puoi creare un elenco di spunta utilizzando i caratteri `- [ ]` per un elemento 
 - [x] Compito 2 (completato)
 - [ ] Compito 3
 ```
+**Risultato di output:**
+- [ ] Compito 1
+- [x] Compito 2 (completato)
+- [ ] Compito 3
+
+---
 
 ## 10. Aggiunta di HTML Personalizzato
 Markdown permette di inserire anche codice HTML diretto per una maggiore flessibilità. Ad esempio, puoi aggiungere un paragrafo con colore personalizzato:
