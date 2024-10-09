@@ -35,6 +35,8 @@ Puoi anche combinare il titolo con altri formati di testo, ad esempio:
 ```markdown
 # **Titolo in Grassetto di Livello 1**
 ```
+**Risultato di output:**
+# **Titolo in Grassetto di Livello 1**
 
 ## 2. Testo Formattato
 Markdown supporta diversi stili di formattazione del testo:
