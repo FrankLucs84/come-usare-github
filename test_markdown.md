@@ -341,14 +341,12 @@ Usa il simbolo \* per un asterisco.
 ## 13. Formule centrate
 Ecco un esempio di formula LateX e scrittura al centro del paragrafo:
 ::: {style="text-align: center;"}
-## \[E = mc^2\]
+\(E = mc^2\)
 :::
 
 - ### 13.1 Un alternativa per centrare il testo:
 <div align="center">
-$$
-E = mc^2
-$$
+$E = mc^2$
 </div>
 
 - ### 13.2 Utilizzare Equazioni come Immagini
