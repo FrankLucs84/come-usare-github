@@ -234,6 +234,25 @@ Se desideri visualizzare una formula in formato LaTeX e GitHub Pages non la supp
 
 Questo ti permette di visualizzare la formula in modo simile a come verrebbe resa nativamente in LaTeX.
 
+# Esempi di equations:
+
+$y=x^2$
+
+$e^{i\pi} + 1 = 0$
+
+$e^x=\sum_{i=0}^\infty \frac{1}{i!}x^i$
+
+$\frac{n!}{k!(n-k)!} = {n \choose k}$
+
+$A_{m,n} =
+ \begin{pmatrix}
+  a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+  a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+  \vdots  & \vdots  & \ddots & \vdots  \\
+  a_{m,1} & a_{m,2} & \cdots & a_{m,n}
+ \end{pmatrix}$
+
+
 
 ## 14. Diagrammi di Flusso
 Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sintassi di [Mermaid](https://mermaid-js.github.io/). Mermaid è uno strumento che ti permette di creare diagrammi direttamente nel tuo documento Markdown. Di seguito trovi alcuni esempi di diagrammi di flusso:
