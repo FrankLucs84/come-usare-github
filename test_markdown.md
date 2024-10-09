@@ -270,7 +270,7 @@ Row 2, Col 1       | Row 2, Col 2
 
 ```markdown
 | Intestazione 1 | Intestazione 2 | Intestazione 3 |
-| :------------: | ------------- | -------------: |
+| :------------: | :------------- | -------------: |
 | Centrato       | Allineato a sinistra | Allineato a destra |
 | Valore 1       | Valore 2       | Valore 3       |
 | Valore 4       | Valore 5       | Valore 6       |
@@ -340,11 +340,9 @@ Usa il simbolo \* per un asterisco.
 
 ## 13. Formule centrate
 Ecco un esempio di formula LateX e scrittura al centro del paragrafo:
-> ::: {style="text-align: center;"}
->
-> ## \[E = mc^2\]
->
-> :::
+::: {style="text-align: center;"}
+## \[E = mc^2\]
+:::
 
 - ### 13.1 Un alternativa per centrare il testo:
 <div align="center">
