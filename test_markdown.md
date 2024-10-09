@@ -163,6 +163,21 @@ Puoi anche aggiungere immagini all'interno delle tabelle:
 | Prodotto 2     | ![Prodotto 2](https://www.esempio.com/prodotto2.jpg) | $20.00     |
 ```
 
+Tables:
+```markdown
+First column name  | Second column name 
+-------------------|------------------
+Row 1, Col 1       | Row 1, Col 2 
+Row 2, Col 1       | Row 2, Col 2 
+
+```
+
+First column name  | Second column name 
+-------------------|------------------
+Row 1, Col 1       | Row 1, Col 2 
+Row 2, Col 1       | Row 2, Col 2 
+
+
 ## 8. Separatori
 Per aggiungere una linea orizzontale, usa tre o più trattini `-`, asterischi `*`, o underscore `_`. I separatori possono essere utili per dividere sezioni del documento:
 
