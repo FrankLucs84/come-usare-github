@@ -72,7 +72,17 @@ Markdown supporta diversi stili di formattazione del testo:
 - Questo è `inline code`
 
 ---
-  
+## Reference
+
+Markdown | Preview
+--- | ---
+`**bold text**` | **bold text**
+`*italicized text*` or `_italicized text_` | *italicized text*
+`` `Monospace` `` | `Monospace`
+`~~strikethrough~~` | ~~strikethrough~~
+`[A link](https://www.google.com)` | [A link](https://www.google.com)
+`![An image](https://www.google.com/images/rss.png)` | ![An image](https://www.google.com/images/rss.png)
+
 
 ### Paragrafi e Interruzioni di Linea
 I paragrafi sono creati con una linea vuota tra di essi. Per creare un'interruzione di linea senza iniziare un nuovo paragrafo, usa due spazi alla fine della linea:
