@@ -223,6 +223,18 @@ E = mc^2
 $$
 </div>
 
+- ### 13.2 Utilizzare Equazioni come Immagini
+Se desideri visualizzare una formula in formato LaTeX e GitHub Pages non la supporta nativamente, puoi generare un'immagine della formula utilizzando un editor LaTeX online e poi includerla come immagine nel documento.
+
+1. Crea la tua formula usando un editor online come [QuickLaTeX](https://quicklatex.com/) o [LaTeX to PNG](https://latex2png.com/).
+2. Scarica l'immagine generata della tua formula.
+3. Includi l'immagine nel tuo documento Markdown:
+
+```markdown
+![Formula E=mc^2](https://www.esempio.com/formula.png "Formula E=mc^2")
+```
+
+Questo ti permette di visualizzare la formula in modo simile a come verrebbe resa nativamente in LaTeX.
 
 ## 14. Diagrammi di Flusso
 Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sintassi di [Mermaid](https://mermaid-js.github.io/). Mermaid è uno strumento che ti permette di creare diagrammi direttamente nel tuo documento Markdown. Di seguito trovi alcuni esempi di diagrammi di flusso:
