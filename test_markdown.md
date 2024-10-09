@@ -368,6 +368,8 @@ Se desideri visualizzare una formula in formato LaTeX e GitHub Pages non la supp
 
 Questo ti permette di visualizzare la formula in modo simile a come verrebbe resa nativamente in LaTeX.
 
+**NOTA BENE**: se si scrivere in apice o pedice, semplicemente esempio `H~2~O`-H~2~O(così va sotto) oppure `X^2^`-X^2^(così va sopra)
+
 # Esempi di equations:
 
 $y=x^2$
@@ -403,6 +405,7 @@ in questo modo si può fare il link in questo modo scivendo tra le parentesi () 
 **Risultato di output:**
 [premi per tornare su](#top)
 
+
 ## RECAP Principal Reference
 
 Markdown | Preview
@@ -413,6 +416,8 @@ Markdown | Preview
 `~~strikethrough~~` | ~~strikethrough~~
 `[A link](https://www.google.com)` | [A link](https://www.google.com)
 `![An image](https://www.google.com/images/rss.png)` | ![An image](https://www.google.com/images/rss.png)
+
+
 
 ## 14. Diagrammi di Flusso
 Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sintassi di [Mermaid](https://mermaid-js.github.io/). Mermaid è uno strumento che ti permette di creare diagrammi direttamente nel tuo documento Markdown. Di seguito trovi alcuni esempi di diagrammi di flusso:
@@ -429,7 +434,6 @@ flowchart TD
     B -->|No| D[Fermati]
     C --> E[Fine]
 ```
----
 
 ### Spiegazione:
 - **flowchart TD**: Specifica che il diagramma è un diagramma di flusso e `TD` indica una direzione dall'alto verso il basso (Top to Down). Altre direzioni possibili sono `LR` (sinistra verso destra), `RL` (destra verso sinistra), `BT` (dal basso verso l'alto).
@@ -469,5 +473,6 @@ gantt
 - **sezione Pianificazione**: Crea una sezione chiamata `Pianificazione`.
 - **Task 1 :a1, 2023-01-01, 30d**: Definisce un'attività chiamata `Task 1` che inizia il 1 gennaio 2023 e dura 30 giorni.
 
+___
 ## Conclusione
 Markdown è uno strumento versatile che permette di formattare testo in modo semplice e leggibile, con funzionalità avanzate per chi desidera personalizzare ulteriormente i propri documenti. Con queste basi avanzate e con esempi più complessi, sarai in grado di creare documenti professionali e ben strutturati, inclusi diagrammi di flusso per migliorare la chiarezza e la rappresentazione delle informazioni!;
