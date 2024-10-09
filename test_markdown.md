@@ -1,6 +1,6 @@
 # Corso Completo: Sintassi Avanzata di Markdown
 
-Markdown è un linguaggio di markup semplice che permette di formattare testo in modo rapido ed efficiente. Di seguito trovi una panoramica più approfondita delle principali funzionalità di Markdown, inclusi esempi avanzati.
+Markdown è un linguaggio di markup semplice che permette di formattare testo in modo rapido ed efficiente. Di seguito trovi una panoramica più approfondita delle principali funzionalità di Markdown, inclusi esempi avanzati, approfondimenti sulle immagini e sui diagrammi di flusso.
 
 ## 1. Titoli
 Usa il simbolo `#` per creare titoli, con diversi livelli di enfasi. Puoi avere fino a sei livelli di titolo, ognuno con una dimensione e una prominenza decrescenti:
@@ -92,6 +92,26 @@ Per creare una lista numerata, utilizza numeri seguiti da un punto. Markdown ges
   ```markdown
   ![Logo OpenAI](https://www.esempio.com/logo.jpg "Logo di OpenAI")
   ```
+  Puoi anche controllare le dimensioni dell'immagine usando HTML:
+  ```markdown
+  <img src="https://www.esempio.com/logo.jpg" alt="Logo OpenAI" width="200" height="200">
+  ```
+
+### Immagini con Link
+Puoi combinare un'immagine con un link per renderla cliccabile:
+
+```markdown
+[![Logo OpenAI](https://www.esempio.com/logo.jpg)](https://www.openai.com)
+```
+
+### Gallerie di Immagini
+Per creare una sorta di galleria di immagini, puoi elencare più immagini di seguito:
+
+```markdown
+![Immagine 1](https://www.esempio.com/immagine1.jpg "Descrizione Immagine 1")
+![Immagine 2](https://www.esempio.com/immagine2.jpg "Descrizione Immagine 2")
+![Immagine 3](https://www.esempio.com/immagine3.jpg "Descrizione Immagine 3")
+```
 
 ## 5. Citazioni
 Le citazioni vengono create utilizzando il simbolo `>`. Le citazioni possono essere annidate per aumentare i livelli di profondità:
@@ -134,6 +154,15 @@ Le tabelle possono essere create utilizzando il carattere `|` per separare le co
 | Valore 4       | Valore 5       | Valore 6       |
 ```
 
+Puoi anche aggiungere immagini all'interno delle tabelle:
+
+```markdown
+| Prodotto       | Immagine                        | Prezzo     |
+| -------------- | ------------------------------- | ---------- |
+| Prodotto 1     | ![Prodotto 1](https://www.esempio.com/prodotto1.jpg) | $10.00     |
+| Prodotto 2     | ![Prodotto 2](https://www.esempio.com/prodotto2.jpg) | $20.00     |
+```
+
 ## 8. Separatori
 Per aggiungere una linea orizzontale, usa tre o più trattini `-`, asterischi `*`, o underscore `_`. I separatori possono essere utili per dividere sezioni del documento:
 
@@ -157,6 +186,12 @@ Markdown permette di inserire anche codice HTML diretto per una maggiore flessib
 <p style="color: red;">Questo è un paragrafo in rosso.</p>
 ```
 
+Puoi anche usare HTML per creare immagini con attributi personalizzati:
+
+```markdown
+<img src="https://www.esempio.com/immagine.jpg" alt="Descrizione dell'immagine" width="300" height="200">
+```
+
 ## 11. Riferimenti ai Link
 Puoi definire i link separatamente dal testo per una migliore leggibilità, specialmente quando ci sono molti link ripetuti. Ecco un esempio di link referenziato:
 
@@ -173,5 +208,61 @@ Se hai bisogno di visualizzare un carattere speciale come `*`, `_`, `#`, ecc., p
 Usa il simbolo \* per un asterisco.
 ```
 
+## 13. Diagrammi di Flusso
+Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sintassi di [Mermaid](https://mermaid-js.github.io/). Mermaid è uno strumento che ti permette di creare diagrammi direttamente nel tuo documento Markdown. Di seguito trovi alcuni esempi di diagrammi di flusso:
+
+### Diagramma di Flusso Base
+Per creare un semplice diagramma di flusso, utilizza la seguente sintassi:
+
+```markdown
+```mermaid
+flowchart TD
+    A[Inizio] --> B{Domanda}
+    B -->|Sì| C[Procedi]
+    B -->|No| D[Fermati]
+    C --> E[Fine]
+```
+```
+
+### Spiegazione:
+- **flowchart TD**: Specifica che il diagramma è un diagramma di flusso e `TD` indica una direzione dall'alto verso il basso (Top to Down). Altre direzioni possibili sono `LR` (sinistra verso destra), `RL` (destra verso sinistra), `BT` (dal basso verso l'alto).
+- **A[Inizio]**: Crea un nodo chiamato `A` con il testo `Inizio` all'interno di parentesi quadre, che indica una forma rettangolare.
+- **B{Domanda}**: Crea un nodo di tipo decisione (`{}`) con il testo `Domanda`.
+- **B -->|Sì| C[Procedi]**: Crea una freccia dal nodo `B` al nodo `C` con l'etichetta `Sì`.
+
+### Diagramma di Sequenza
+I diagrammi di sequenza possono essere creati per rappresentare la comunicazione tra diversi attori o sistemi.
+
+```markdown
+```mermaid
+sequenceDiagram
+    partecipante A
+    partecipante B
+    A->>B: Ciao, come stai?
+    B->>A: Bene, grazie!
+```
+```
+
+### Diagramma Gantt
+Puoi anche creare un diagramma di Gantt per la gestione del progetto:
+
+```markdown
+```mermaid
+gantt
+    titolo Progetto Esempio
+    sezione Pianificazione
+    Task 1 :a1, 2023-01-01, 30d
+    Task 2 :after a1, 20d
+    sezione Esecuzione
+    Task 3 :2023-02-01, 45d
+```
+```
+
+### Spiegazione del Diagramma Gantt
+- **gantt**: Inizia il diagramma di Gantt.
+- **titolo Progetto Esempio**: Imposta il titolo del diagramma.
+- **sezione Pianificazione**: Crea una sezione chiamata `Pianificazione`.
+- **Task 1 :a1, 2023-01-01, 30d**: Definisce un'attività chiamata `Task 1` che inizia il 1 gennaio 2023 e dura 30 giorni.
+
 ## Conclusione
-Markdown è uno strumento versatile che permette di formattare testo in modo semplice e leggibile, con funzionalità avanzate per chi desidera personalizzare ulteriormente i propri documenti. Con queste basi avanzate, sarai in grado di creare documenti professionali e ben strutturati!
+Markdown è uno strumento versatile che permette di formattare testo in modo semplice e leggibile, con funzionalità avanzate per chi desidera personalizzare ulteriormente i propri documenti. Con queste basi avanzate e con esempi più complessi, sarai in grado di creare documenti professionali e ben strutturati, inclusi diagrammi di flusso per migliorare la chiarezza e la rappresentazione delle informazioni!
