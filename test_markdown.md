@@ -13,6 +13,22 @@ Usa il simbolo `#` per creare titoli, con diversi livelli di enfasi. Puoi avere 
 ##### Titolo di livello 5
 ###### Titolo di livello 6
 ```
+**Risultato di output:**
+
+# Titolo di livello 1
+
+## Titolo di livello 2
+
+### Titolo di livello 3
+
+#### Titolo di livello 4
+
+##### Titolo di livello 5
+
+###### Titolo di livello 6
+
+---
+
 
 Puoi anche combinare il titolo con altri formati di testo, ad esempio:
 
@@ -45,6 +61,16 @@ Markdown supporta diversi stili di formattazione del testo:
   ```markdown
   Questo è `inline code`.
   ```
+**Risultato di output:**
+
+- **Testo in grassetto**
+- *Testo in corsivo*
+- ***Testo in grassetto e corsivo***
+- ~~Testo barrato~~
+- Questo è `inline code`
+
+---
+  
 
 ### Paragrafi e Interruzioni di Linea
 I paragrafi sono creati con una linea vuota tra di essi. Per creare un'interruzione di linea senza iniziare un nuovo paragrafo, usa due spazi alla fine della linea:
@@ -66,6 +92,15 @@ Per creare una lista non numerata, puoi usare `-`, `*`, o `+` come simbolo del p
 - Elemento 2
 * Elemento 3
 ```
+**Risultato di output:**
+
+- Elemento 1
+  - Sotto-elemento 1.1
+    - Sotto-elemento 1.1.1
+- Elemento 2
+* Elemento 3
+
+---
 
 ### Liste Numerate
 Per creare una lista numerata, utilizza numeri seguiti da un punto. Markdown gestisce automaticamente la numerazione, quindi anche se usi `1.` per ogni elemento, verranno numerati in sequenza:
@@ -77,6 +112,16 @@ Per creare una lista numerata, utilizza numeri seguiti da un punto. Markdown ges
    2. Sotto-elemento 2.2
 3. Terzo elemento
 ```
+**Risultato di output:**
+
+1. Primo elemento
+2. Secondo elemento
+   1. Sotto-elemento 2.1
+   2. Sotto-elemento 2.2
+3. Terzo elemento
+
+---
+
 
 ## 4. Link e Immagini
 
@@ -84,6 +129,10 @@ Per creare una lista numerata, utilizza numeri seguiti da un punto. Markdown ges
   ```markdown
   [Visita OpenAI](https://www.openai.com)
   ```
+  **Risultato di output:**
+[Visita OpenAI](https://www.openai.com)
+
+---
   Puoi anche aggiungere un testo alternativo per descrivere il link:
   ```markdown
   [Scopri di più su OpenAI](https://www.openai.com "Sito ufficiale di OpenAI")
@@ -120,6 +169,13 @@ Le citazioni vengono create utilizzando il simbolo `>`. Le citazioni possono ess
 > Questa è una citazione.
 > > Questa è una citazione annidata.
 ```
+**Risultato di output:**
+
+> Questa è una citazione.
+>
+> > Questa è una citazione annidata.
+
+---
 
 Le citazioni possono contenere anche altri elementi Markdown, come liste o codice:
 
@@ -135,6 +191,11 @@ Le citazioni possono contenere anche altri elementi Markdown, come liste o codic
   ```markdown
   Questo è `inline code`.
   ```
+**Risultato di output:**
+Questo è `inline code`.
+
+---
+
 - **Blocchi di Codice**: Usa tre backtick ``` ``` per creare un blocco di codice. Puoi specificare il linguaggio di programmazione dopo i backtick per abilitare la colorazione della sintassi:
   ```markdown
   ```python
@@ -142,9 +203,34 @@ Le citazioni possono contenere anche altri elementi Markdown, come liste o codic
       print("Ciao, mondo!")
   ```
   ```
+**Risultato di output:**
+
+```python
+def funzione():
+    print("Ciao, mondo!")
+```
+---
 
 ## 7. Tabelle
 Le tabelle possono essere create utilizzando il carattere `|` per separare le colonne e `-` per separare l'intestazione dal contenuto. Puoi anche allineare il contenuto delle colonne utilizzando `:`:
+**Esempio di costruzione:**
+
+```markdown
+| Intestazione 1 | Intestazione 2 |
+| -------------- | -------------- |
+| Valore 1       | Valore 2       |
+| Valore 3       | Valore 4       |
+```
+
+**Risultato di output:**
+
+| Intestazione 1 | Intestazione 2 |
+| -------------- | -------------- |
+| Valore 1       | Valore 2       |
+| Valore 3       | Valore 4       |
+
+---
+
 
 ```markdown
 | Intestazione 1 | Intestazione 2 | Intestazione 3 |
@@ -275,14 +361,27 @@ Markdown supporta anche la creazione di diagrammi di flusso utilizzando la sinta
 ### Diagramma di Flusso Base
 Per creare un semplice diagramma di flusso, utilizza la seguente sintassi:
 
+**Esempio di costruzione:**
+
 ```mermaid
 flowchart TD
     A[Inizio] --> B{Domanda}
     B -->|Sì| C[Procedi]
     B -->|No| D[Fermati]
     C --> E[Fine]
-
 ```
+
+**Risultato di output:**
+
+```mermaid
+flowchart TD
+    A[Inizio] --> B{Domanda}
+    B -->|Sì| C[Procedi]
+    B -->|No| D[Fermati]
+    C --> E[Fine]
+```
+---
+
 
 ### Spiegazione:
 - **flowchart TD**: Specifica che il diagramma è un diagramma di flusso e `TD` indica una direzione dall'alto verso il basso (Top to Down). Altre direzioni possibili sono `LR` (sinistra verso destra), `RL` (destra verso sinistra), `BT` (dal basso verso l'alto).
