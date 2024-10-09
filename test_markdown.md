@@ -401,7 +401,7 @@ in questo modo si può fare il link in questo modo scivendo tra le parentesi () 
 [premi per tornare su] (#titolo1)
 ```
 **Risultato di output:**
-[premi per tornare su](#Titoli)
+[premi per tornare su](#top)
 
 ## RECAP Principal Reference
 
