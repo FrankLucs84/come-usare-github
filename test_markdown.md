@@ -322,20 +322,36 @@ Markdown permette di inserire anche codice HTML diretto per una maggiore flessib
 
 ```markdown
 <p style="color: red;">Questo è un paragrafo in rosso.</p>
+
+Inoltre, potresti aggiungere uno spazio in due modi:
+
+Due spazi dopo la riga.  
+Nuova riga inserita.
+
+Utilizzando tag HTML per rompere la linea.<br>
+Nuova riga inserita.
 ```
+**Risultato di output:**
+<p style="color: red;">Questo è un paragrafo in rosso.</p>
+
+Due spazi dopo la riga.  
+Nuova riga inserita.
+
+Utilizzando tag HTML per rompere la linea.<br>
+Nuova riga inserita.
 
 Puoi anche usare HTML per creare immagini con attributi personalizzati:
-
 ```markdown
 <img src="https://www.esempio.com/immagine.jpg" alt="Descrizione dell'immagine" width="300" height="200">
 ```
+
+---
 
 ## 11. Riferimenti ai Link
 Puoi definire i link separatamente dal testo per una migliore leggibilità, specialmente quando ci sono molti link ripetuti. Ecco un esempio di link referenziato:
 
 ```markdown
 Questo è un [link di esempio][esempio-link].
-
 [esempio-link]: https://www.esempio.com "Titolo del link"
 ```
 
@@ -398,7 +414,7 @@ Ciao sono Francesco [^1] e sto facendo una prova di Diario [^md]
 ```
 ## link all'interno della pagina 
 ```markdown
-Si mette il cancelletoo nel primo titolo tra le parentesi graffe, coì # TITOLO1 {#titolo1},
+Si mette il cancelletto nel primo titolo tra le parentesi graffe, con # TITOLO1 {#titolo1},
 in questo modo si può fare il link in questo modo scivendo tra le parentesi () il link interno
 [premi per tornare su] (#titolo1)
 ```
