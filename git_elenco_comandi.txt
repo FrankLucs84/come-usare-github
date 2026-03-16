@@ -1,0 +1,7 @@
+Salvataggio del lavoro: "git add" sposta i file dalla directory di lavoro all'area di staging. "git commit" salva i file nell'area di staging nel repository locale. "git push" carica i commit nel repository remoto.
+
+Ottenere un progetto: "git clone" scarica l'intero repository remoto sul tuo computer. "git checkout" ti permette di passare a un ramo specifico.
+
+Sincronizzazione delle modifiche: "git fetch" scarica gli aggiornamenti dal repository remoto ma non modifica i file. "git merge" integra tali modifiche. "git pull" esegue entrambe le operazioni contemporaneamente.
+
+La rete di sicurezza: "git stash" è il tuo pulsante Annulla. Salva temporaneamente le modifiche non ancora confermate, permettendoti di cambiare contesto senza perdere il lavoro. "git stash apply" le ripristina. "git stash pop" le ripristina ed elimina lo stash.
